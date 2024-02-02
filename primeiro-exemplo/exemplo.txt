@@ -2,10 +2,22 @@ Objetivos:
 
 Criar uma API RestFull para Controle de Produtos.
 
+CRUD-1
 Modelo:  OK.
 
     Produto: id, nome, quantidade, valor, observacao.
 
+CRUD-2
 Reopositorio de produtos:  OK.
      
-    obterTodos, obterPorId, adicionar, atualizar, deletar. 
+    obterTodos, obterPorId, adicionar, atualizar, deletar.
+
+CRUD-3
+Serviso de produto:  OK.
+
+    obterTodos, obterPorId, adicionar, atualizar, deletar.
+
+CRUD-4 (cLASSE PRINCIPAL)
+Controller de produtos:
+
+    obterTodos, obterPorId, adicionar, atualizar, deletar.

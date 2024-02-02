@@ -31,9 +31,9 @@ public class ProdutoRepository {
         return produtos.stream().filter(produto -> produto.getId() == id).findFirst();
     }
 
-    /**
-     * Metodo que retorna o produto encontrado
-     * @param produto do produto que sera localozado.
+     /**
+     * Metodo que retorna o produto que sera adicionadio na lista.
+     * @param produto do produto que sera adicionado.
      * @return Retorna o produto que foi adicionado na lista.
      */
     public Produto adicionar(Produto produto ){
@@ -45,9 +45,9 @@ public class ProdutoRepository {
 
     /**
      * Metodo para deletar o produto encontrado por Id.
-     * @param Id do produto a ser deletado.
+     * @param id do produto a ser deletado.
      */
-    public void deletar(Integer Id){
+    public void deletar(Integer id){
         Produto.removeIf(Produto -> Produto.getId() == id);
     }
 
